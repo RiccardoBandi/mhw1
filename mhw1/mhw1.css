@@ -1,0 +1,565 @@
+
+.link1{
+    font-size:small;
+    font-family:Helvetica;
+    color: white;
+}
+.annunci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    border: 6px solid black;
+    margin:0%;
+    height: 20px;
+    position: relative;
+     
+}
+body{
+    margin: 0%;
+}
+
+.menu{
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Helvetica;
+}
+.sez{
+    position:relative;
+    display: flex;
+    justify-content: space-around ;
+    width: 30%;
+    height: 40px;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-radius: 10px;
+    
+    
+}
+.logo {
+    display: flex;
+    width: 150px;
+    height: auto;
+    line-height: 16%;
+    justify-content: start;
+}
+.donna a{
+    border-bottom: 100%;
+    border-width: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+
+}
+.donna:hover{
+    background-color: rgba(211, 211, 211, 0.7);
+    width: 126px; 
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bimbi a{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.sez a {
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    justify-items: right;
+}
+
+.uomo:hover{
+    background-color: rgba(211, 211, 211, 0.3);
+    width: 126px; 
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bimbi a:hover{
+    background-color: rgba(211, 211, 211, 0.3);
+    height: 45px;
+    width: 126px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.sez2{
+    margin-right: 5%;
+    display: flex;
+    justify-content: end;
+    width: 38%;
+    height: 29%;
+}
+.lingua{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-left: 30px ;
+    margin-right: 10px;
+    border: 20px;
+    
+}
+.account{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left:10px ;
+    margin-right: 10px;
+    border: 20px;
+}
+.preferiti img{
+   height: 25px;
+   width: 25px;
+   margin-left:10px ;
+   margin-right: 10px;
+   border: 20px; 
+
+}
+.carrello img{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    margin-left:10px ;
+    margin-right: 10px;
+    border: 20px;
+}
+.lingua:hover{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-left: 30px ;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.7);
+    
+}
+.account:hover{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left:10px ;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+.preferiti:hover{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   tab-size: 30px;
+   background-color: rgba(211, 211, 211, 0.7);
+
+}
+.carrello:hover{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   tab-size: 30px;
+   background-color: rgba(211, 211, 211, 0.7);
+}
+.categorie{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   display: flex;
+   width: 88%;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+.categorie a{
+    color: black;
+}
+.cerca img{
+    margin-left: 1%;
+    width: 30px;
+    height: 30px;
+} 
+.cerca p{
+    color:  rgba(128, 128, 128, 1);
+    margin-left: 7%;
+}
+.categorie a{
+   text-decoration: none;
+}
+.saldi a{
+    color: red;
+}
+.saldi a:hover{
+    color: black;
+}
+.cerca{
+    margin-left: 10%;
+    margin-right: -10%;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 20%;
+    height: 44px;
+    display: flex;
+}
+.attuale{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 24px;
+    width: 80%;
+    height: 850px ;
+    display: flex;
+    margin-left: auto;
+}
+.novità{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    width:50%;
+    margin-left: 30px;
+    text-align: center;
+    padding-right: 30px;
+}
+.novità a{
+    display: flex;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.modello{
+    display: inline-block;
+    background-image:url(modello-farfetch.jpeg);
+    background-clip: padding-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    width: 60%;
+    height: 700px;
+    
+}
+.motto{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+.bottone{
+    padding-block: 1px;
+    padding-inline:6px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size:medium;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.bottone:hover{
+    background-color: rgba(211, 211, 211, 0.7);
+}
+.nov{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-left: 6px;
+
+}
+
+.nov p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 60px;
+    font-size: 135%;
+}
+.nov a{
+    margin-right: -7%;
+    padding: 10px;
+    margin-top: 2%;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height:20%;
+}
+.nov a:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.prodotti{
+    margin-bottom: 70px;
+    display: flex;  
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.prodotto{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    height: 400px;
+    width: 30%;
+    padding-left:35px ;
+}
+.prodotto h3{
+    font-size: medium;
+}
+
+.prod1{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(camicia.webp);
+    background-size: contain;
+    border-right: 12px;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    
+}
+
+.prod2{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(oro-far.webp);
+    background-size: contain ;
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+.prod3{
+    background-repeat: no-repeat;
+    background-image:url(scarpa-far.webp) ;
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    position: relative;
+
+}
+.prod4{
+    background-repeat: no-repeat;
+    background-image: url(giacca-sport.webp);
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+.prod1 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod2 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod3 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod4 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod5{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(camicia-ricamo.webp);
+    background-size: contain;
+    border-right: 12px;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    
+}
+
+.prod6{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(borsa.webp);
+    background-size: contain ;
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+.prod7{
+    background-repeat: no-repeat;
+    background-image:url(pant-dal.webp) ;
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    position: relative;
+
+}
+.prod8{
+    background-repeat: no-repeat;
+    background-image: url(stivale.webp);
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+.prod5 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod6 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod7 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prod8 img{
+    position: absolute;
+    left: 85%;
+    height:22px;
+    width: 22px;
+}
+.prodotto a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 100%;
+}
+.prod9{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(mod-far.jpeg);
+    background-size: contain;
+    border-right: 12px;
+    width: 280 px;
+    height: 400px;
+    
+}
+
+.prod10{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(mocassino.jpeg);
+    background-size: contain ;
+    width: 280px;
+    height: 400px;
+}
+.prod11{
+    background-repeat: no-repeat;
+    background-image:url(jeans.jpeg) ;
+    background-size: contain;
+    width: 280px;
+    height: 400px;
+
+}
+.prod12{
+    background-repeat: no-repeat;
+    background-image: url(amiri.jpeg);
+    background-size: contain;
+    width: 280px;
+    height: 400px;
+}
+.prod9 p{
+   
+    margin-top: -20%;
+    font-size:95%;
+}
+.prod10 p{
+    margin-top: -20%;
+    font-size:95%;
+}
+.prod11 p{
+    margin-top: -20%;
+    font-size:95%;
+}
+.prod12 p{
+    margin-top: -20%;
+    font-size:95%;
+}
+.servizi{
+    display: flex;
+    justify-content: space-around;
+    height: 160px;
+}
+.servizio{
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 1) ;
+    width: 30%;
+    height:80%;
+    border-radius: 6px;
+    justify-content: space-around;
+    justify-content: start;
+    align-items: start;
+    
+}
+.servizio a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.servizio img{
+  width: 6%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.servizio p{
+    margin-top: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+.pubblicità{
+    display: flex;
+    justify-content: space-around;
+}
+.promo{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+}
+.promo h3{
+    font-size: 30px;
+}
+.promo p{
+    font-size: 16px;
+    height: 44px;
+}
